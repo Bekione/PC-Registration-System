@@ -1,0 +1,37 @@
+@import url('../font-awesome-4.7.0/css/font-awesome.min.css');
+::-webkit-scrollbar{
+    width: 1em;
+}
+::-webkit-scrollbar-track{
+    background-color: rgba(211, 208, 208);
+    padding: .1em;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: #212121;
+    border: .3em solid rgb(252, 4, 4);
+    border-radius: 100vw;
+}
+*::selection{
+    background-color: rgb(156, 148, 148);
+}
+*, *::before, *::after{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100%;
+    font-family: sans-serif;
+    scroll-behavior: smooth;
+}
+img{
+    max-width: 100%;
+    height: auto;
+} 
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
