@@ -17,10 +17,10 @@ The system simply registers students pc and their along with theri personal info
 
 
 ### How it works
-- Clone this repository from <em>C:\xampp\htdocs\</em><br>
-- Open Xampp and start <em>Apache</em> and <em>MySQL</em></br>
-- Open PHP My Admin and create a database named <em>"pc_registration"</em></br>
-- In the database import the <em>'pcregistration.sql'</em> file from the <em>SQL</em> folder of this project</br>
-- run the <em>login.php</em> file</br>
-- For logging in use <em>username="bereket"</em> & <em>password="adminpwd123"</em></br>
+- Clone this repository from _**C:\xampp\htdocs\**_ <br>
+- Open Xampp and start _**Apache**_ and _**MySQL**_ </br>
+- Open PHP My Admin and create a database named "_**pc_registration**_" </br>
+- In the database import the '_**pcregistration.sql**_' file from the _**SQL**_ folder of this project</br>
+- run the **_login.php_** file</br>
+- For logging in use _username="**bereket**" & password="**adminpwd123**"_</br>
 
