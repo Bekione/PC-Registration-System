@@ -16,7 +16,7 @@ The system simply registers students pc and their along with theri personal info
 
 
 
-<h2>How it works</h2>
+### How it works
 - Clone this repository from <em>C:\xampp\htdocs\</em><br>
 - Open Xampp and start <em>Apache</em> and <em>MySQL</em></br>
 - Open PHP My Admin and create a database named <em>"pc_registration"</em></br>
