@@ -8,7 +8,7 @@ The system simply registers students pc and their along with theri personal info
 - JAVASCRIPT
 - PHP
 - MySQL
-- XAMPP
+- [XAMPP](https://www.apachefriends.org/download.html)
 
 
 ### This is what the register section of the system looks like
