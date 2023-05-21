@@ -1,0 +1,107 @@
+@import url('reset.css');
+@import url('footer.css');
+::-webkit-scrollbar{
+    width: 1em;
+}
+::-webkit-scrollbar-track{
+    background-color: rgba(211, 208, 208);
+    padding: .1em;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: #212121;
+    border: .3em solid rgba(211, 208, 208);
+    border-radius: 100vw;
+}
+*::selection{
+    background-color: rgb(252, 195, 7);
+}
+.view_container{
+    grid-column: 2;
+}
+.wrong_search_msg{
+    background-color: rgba(211, 208, 208, 0.452);
+    margin-block: 2rem;
+    height: 500px;
+    border-radius: 12px;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.wrong_search_msg .msg{
+    margin-block: 2rem;
+    text-align: center;
+}
+.msg p{
+    font-size: 34px;
+    margin-bottom: .5rem;
+    text-shadow: 1px 1px 4px rgba(0,0,0,.3);
+}
+.msg h2{
+    font-size: 26px;
+    text-shadow: 1px 1px 3px rgba(0,0,0,.2);
+}
+.wrong_search_msg .recommendation{
+    width: 100%;
+    padding-left: 10rem;
+}
+.recommendation ul{
+    list-style: circle;
+}
+.recommendation p{
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+.recommendation ul li{
+    line-height: 30px;
+    margin-left: 2rem;
+    -webkit-user-select: none;
+    user-select: none;
+}
+.table{
+    width: 100%;
+    border-collapse: collapse;
+    box-shadow: 2px 2px 5px 0 rgba(0,0,0,.3);
+    border-radius: 8px;
+    overflow: hidden;  
+    transition: all .4s;
+    margin-top: 2rem;
+}
+.table thead{
+    text-transform: capitalize;
+    background-color: #dbd2d2;
+    color: #333;
+}
+.table thead th{
+    padding: 16px;
+}
+.table tbody th{
+    color: #333;
+    width: 20%;
+}
+.table tbody td.operation{
+    text-align: center;
+}
+.table tbody td.operation a{
+    color: red;
+    font-size: 18px;
+}
+.table tbody td{
+    width: 50px;
+    padding-inline: 15px;
+    padding-block: 20px;
+    text-align: left
+}
+.table tr:not(thead>tr):hover{
+    box-shadow: 2px 2px 5px 0 rgba(0,0,0,.3);
+}
+.table tr:not(thead>tr):nth-child(odd):hover{
+    background-color: #f3f3ef;
+}
+.table tr:nth-child(even){
+    background-color: #e7e0e0;
+}
+.table tr:nth-child(even):hover{
+    background-color: #e4dada;
+}

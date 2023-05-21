@@ -1,0 +1,137 @@
+@import url('reset.css');
+@import url('footer.css');
+::-webkit-scrollbar{
+    width: 1em;
+}
+::-webkit-scrollbar-track{
+    background-color: rgba(211, 208, 208);
+    padding: .1em;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: #212121;
+    border: .3em solid rgba(211, 208, 208);
+    border-radius: 100vw;
+}
+*::selection{
+    background-color: rgb(252, 195, 7);
+}
+.sidebar ul li:nth-child(2){
+    background-color: white;
+    outline: 1px solid #ddd;
+    width: 280px;
+    box-shadow: 2px 0 8px rgba(0,0,0,.3);
+    border-top-right-radius: 100vw;
+    border-bottom-right-radius: 100vw;
+    z-index: 1000;
+} 
+
+.title{
+    grid-column: 1/-1;
+    text-align: center;
+    margin-block: 1rem;
+    font-size: 24px;
+} 
+.registration_form{
+    grid-column: 2;
+    margin-bottom: 3rem;
+}
+.registration_form form{
+    width: 500px;
+    margin: 0 auto;
+    padding: 10px;
+    background-color: rgba(244,244,244,.9);
+    border-radius: 12px;
+    transition: width .3s;
+}
+.registration_form form.active{
+    width: 700px;
+}
+.registration_form form .input label{
+    display: inline-block;
+    padding: 5px;
+    margin-top: 6px;
+    margin-bottom: 5px;
+    color: rgb(37, 36, 36);
+}
+.registration_form form .input{
+    width: 100%;
+    margin-bottom: 10px;
+}
+.registration_form form .input input{
+    width: 100%;
+    padding: 10px 15px;
+    border: 1px solid rgb(201, 198, 198);
+    border-radius: 6px;
+    outline-color: rgb(35, 65, 235);
+}
+.registration_form form .input input[type="file"]{
+    padding: 7px;
+    height: 37px;
+    background-color: white;
+}
+.registration_form form .input input[type="submit"]{
+    margin-top: 2rem;
+    background-color: rgb(35, 65, 235);
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.pop_up{
+    text-align: center;
+    width: 250px;
+    padding-right: 20px;
+    padding-block: 25px;
+    border-radius: 12px;
+    position: fixed;
+    top: 110px;
+    right: 30px;
+    background-color: #fdfbfb;
+    box-shadow: 2px 3px 5px rgba(0,0,0,.3);
+    z-index: 1001;
+}
+.pop_up p{
+    font-size: 18px;
+}
+.pop_up .remove{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background-color: #eee6e6;
+    box-shadow: 0 0 3px 3px rgba(0,0,0,.2);
+}
+.remove span{
+    font-size: 12px;
+    color: rgb(238, 34, 34);
+}
+.pop_up .slider_counter{
+    position: absolute;
+    bottom: 8%;
+    width: 85%;
+    height: 6px;
+    left: 50%;
+    transform: translate(-50%);
+    border: 1px solid rgba(77, 179, 36, 0.548);
+    border-radius: 12px;
+    margin-top: 5px;
+}
+
+.slider_counter .mover{
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-color: greenyellow;
+    animation: slide 3s linear;
+}
+@keyframes slide {
+    to{
+        width: 0;
+    }
+}
