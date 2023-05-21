@@ -8,7 +8,7 @@ include 'connect.php';
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="result.css?v=<?php echo time(); ?>">
+    <link rel="stylesheet" href="./Css/result.css?v=<?php echo time(); ?>">
     <link rel="shortcut icon" href="Assets/logo.png">
     <title>DBU Pc Registration System</title>
 </head>
