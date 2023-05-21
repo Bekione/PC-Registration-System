@@ -146,6 +146,8 @@ include 'connect.php';
             <p>&copy; 2022 DBU PC Registration System. All rights reserved.</p>
         </footer>
     </main>
+
+    
     <script>
         const tblRows = document.querySelectorAll(".body_row"); 
         tblRows.forEach(row => {
